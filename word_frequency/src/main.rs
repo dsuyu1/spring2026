@@ -1,3 +1,6 @@
+// this solution is O(n) 
+// where n is the number of words in the input text, since we need to iterate through all the words once to count them, 
+// and then we find the maximum count in O(n) time as well.
 fn most_frequent_word(text: &str) -> (String, usize) {
     use std::collections::HashMap; // we can use a hashmap lol
     // hashmap is good for keeping track of counted words

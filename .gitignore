@@ -3,3 +3,5 @@
 /workspaces/spring2026/in_class/target
 /start.txt
 /word_frequency/target
+/book_catalog/target
+/*/Cargo.*

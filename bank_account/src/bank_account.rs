@@ -37,6 +37,8 @@ impl BankAccount {
     }
 }
 
+// I didn't use assert_eq! because of floating point precision issues, so I check if the difference is small enough instead
+// I just kept having floating point issues, I had to search up how to deal with them and this is what I found, I hope it's correct!
 #[cfg(test)]
 mod tests {
     use super::*;
